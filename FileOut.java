@@ -12,13 +12,10 @@ public class FileOut {
   Scanner s=new Scanner(System.in);
   System.out.println("enter number of lines");
   int n=s.nextInt();
-  //String s1=Integer.toString(n);
   System.out.println("enter string data");
-  //byte b1[];
-  for(byte i=0;i<=n;i++)
+   for(byte i=0;i<=n;i++)
   {
 	  String ss=s.nextLine()+"\n";
-	  //b1[i]=s.nextLine();
 	 byte[] b1=ss.getBytes();
 	  fos.write(b1);
   }
@@ -27,8 +24,7 @@ public class FileOut {
   int a=0;
   while((a=fis.read())!=-1) {
 	  System.out.print((char)a);
-	 
-  }
+   }
   if(fis!=null) {
 	  fis.close();
   }
