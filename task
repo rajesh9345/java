@@ -1,0 +1,22 @@
+Basic Calculator
+	Resonsive Website
+	Tech Stack : CSS,HTML,JS,Bootstrap
+	
+	
+Car Inventory gallery
+	Resonsive Website
+	Category Menu for car make (Like Nizan,Maruthi, BMW,...)
+	on clicking on each category shows its item list with following information
+		Make
+		Model
+		Trim (Version)
+		Price
+		Car Image  (Multiple Images)
+	Tech Stack : CSS,HTML,Bootstrap,JS
+	
+Data Parsing
+	Resonsive Website
+	User Sign in Screen
+	Read Data From CSV File and show it in webpage (Tabular Form)
+	Able to Filter and Sort data in Table
+	Tech Stack : 
